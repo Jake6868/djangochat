@@ -1,4 +1,4 @@
-#!/Users/jakenguyen/Documents/djangochat/.venv/bin/python
+#!/Users/jakenguyen/Documents/djangochat/.venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -1,5 +1,14 @@
-{% extends 'core/base.html' %} {% block title %} Welcome| {% endblock %} {% block content %}
+{% extends 'core/base.html' %}
+
+{% block title %} Welcome | {% endblock %}
+
+{% block content %}
 <div class="p-10 lg:p-20 text-center">
-  <h1 class="text-3xl lg:text-6xl text-white">Djangochat</h1>
+    <h1 class="text-3xl lg:text-6xl text-white font-bold">Djangochat</h1>
+    <p class="text-lg lg:text-2xl text-gray-300 mt-4">Connect and chat with friends in real-time</p>
+    <div class="mt-6">
+        <a href="/signup/" class="px-5 py-3 rounded-xl bg-teal-700 hover:bg-teal-800 text-white focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2">Get Started</a>
+    </div>
 </div>
 {% endblock %}
+
